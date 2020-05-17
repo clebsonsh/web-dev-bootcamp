@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  text-align: center;
 }
 
 h1 {
@@ -8,6 +9,8 @@ h1 {
 
 .top-container {
   background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
 }
 
 .middle-container, .bottom-container {
@@ -21,4 +24,17 @@ h1 {
 
 .bottom-container {
   background-color: blue;
+}
+
+.top-cloud, .bottom-cloud {
+  position: absolute;
+}
+
+.top-cloud {
+  right: 25%;
+  top: 30px;
+}
+
+.bottom-cloud {
+  left: 25%;
 }
